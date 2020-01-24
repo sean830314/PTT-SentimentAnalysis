@@ -1,0 +1,9 @@
+# config.yaml file
+
+sentiment: 'dict/BosonNLP_sentiment_score.txt'
+
+noword: 'dict/nowords.txt'
+
+adverb: 'dict/degree.txt'
+
+stopword: 'dict/stopwords.txt'
