@@ -130,7 +130,7 @@ class SentimentAnalyer:
                 # loc is the serial number of the list of emotion word locations
                 sen_loc += 1
                 score += W * float(sen_words[str(i)])
-                print("score", W * float(sen_words[str(i)]))
+                # print("score", W * float(sen_words[str(i)]))
                 # print "score = %f" % score
                 if sen_loc < len(sen_loc_list) - 1:
                     # Determine if there is a negative or degree adverb between this affective word and the next affective word

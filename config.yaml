@@ -7,3 +7,7 @@ noword: 'dict/nowords.txt'
 adverb: 'dict/degree.txt'
 
 stopword: 'dict/stopwords.txt'
+
+input: 'data/HatandCap-1-207.json'
+
+output: 'result/HatandCap-Score.json'
