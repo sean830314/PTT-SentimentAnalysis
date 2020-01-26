@@ -1,12 +1,12 @@
 import codecs
 import json
-
+import argparse
 from sentiment.sentiment_analyer import getSentimentAnalyer
 import yaml
 
 
-def main():
-    with open(r'./config.yaml') as file:
+def main(config):
+    with open(config) as file:
         config = yaml.load(file, Loader=yaml.FullLoader)
         print(config)
     print("Start")
@@ -35,4 +35,7 @@ def main():
 
 
 if __name__ == '__main__':
-    main()
+    parser = argparse.ArgumentParser(description='manual to this script')
+    parser.add_argument('--file', type=str, default=r'./config.yaml')
+    args = parser.parse_args()
+    main(args.file)
