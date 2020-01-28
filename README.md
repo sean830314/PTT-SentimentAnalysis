@@ -18,10 +18,10 @@ PTT-SentimentAnalyzer is a sentiment analyzer that determines whether a PTT boar
 ## Result
 ####positive
 ![avatar](./png/pos.PNG)
-![avatar](./png/pos1.PNG)
+![avatar](./png/pos2.PNG)
 ####negative
 ![avatar](./png/neg.PNG)
-![avatar](./png/neg1.PNG)
+![avatar](./png/neg2.PNG)
 ## References
 - [jieba](https://github.com/fxsjy/jieba)
 
